@@ -1,33 +1,31 @@
-let resume=[{
- 
-    "name": "madhan",
-    "email": "iamhappy@gmail.com",
-    "phone":998899889,
-    "degree": "b.e",
-      "city": "chennai",
-         "company": "Suzuki motor",
-      "position": "executive prod"
-    }
-     ,
-     {
-      "institution": "pamhss",
-      "area": "chennai",
-      "courses": "BE"
-    }
-
-,
- {
-      "language": "Tamil"
+var arr=[
+    {
+      "id": 1,
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     },
-  {
-
-hobby: "bike riding"
+    {
+  
+      "id": 2,
+      "title": "qui est esse"
+    },
+    {
    
+      "id": 3,
+      "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut"
+    },
+    {
+     
+      "id": 4,
+      "title": "eum et est occaecati"
+    }];
+  //for loop
+    for(var i=0;i<arr.length;i++){
+    console.log(arr[i].id,arr[i].title);
     }
-  ]
-    for(var i=0;i<resume.length;i++)
- {
-  for( var key in resume[i]){
-  console.log(key,resume[i][key]);
-}
- }
+  for(var i=0;i<arr.length;i++){
+  // for in
+  for( var key in arr[i]){
+  console.log(key,arr[i][key]);  
+  }
+  } 
+  
